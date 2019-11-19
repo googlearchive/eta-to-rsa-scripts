@@ -6,7 +6,7 @@ Generate RSAs from existing ETAs
     - Sheet Name : Accounts
     - Columns :
         * Accounts  - Column for the account ids you want to process.
-        * Done      - Column to track if the account is already processed.
+        * RSA Generated  - Column to track if the account is already processed and RSA was generated.
     - Take note of the Sheet ID.
 2. Specify the individual accounts you’d like to generate RSAs for by copying a list of account ids into column A under the “Accounts” tab
 3. Install the GenerateRSA script.

@@ -230,7 +230,7 @@ function addValidTextAd(adText, adTextArr) {
  * @param {!string} adText An Ad headline or description.
  */
 function containsAdCustomizers(adText) {
-  if (adText.indexOf("{=") !== -1 || adText.indexOf("{Keyword:") !== -1) {
+  if (adText.indexOf("{=") !== -1) {
     return true;
   }
   return false;
